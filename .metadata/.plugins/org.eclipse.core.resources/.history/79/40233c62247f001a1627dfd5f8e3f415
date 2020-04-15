@@ -1,0 +1,10 @@
+spring.datasource.url = jdbc:mysql://localhost:3306/demo
+spring.datasource.username=root
+spring.datasource.password=butibori_1234
+
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
+
+server.port=8765
+
+password_check_regex = (?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^A-Za-z0-9\\s]).{10,}
