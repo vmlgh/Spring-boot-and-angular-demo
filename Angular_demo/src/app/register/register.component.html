@@ -1,0 +1,16 @@
+<div class="col-md-6">
+    <h2 class="text-center">Add User</h2>
+    <form>
+      <div class="form-group">
+        <label for="user name">User Name:</label>
+        <input [(ngModel)]="this.user.userName" placeholder="username" name="userName" class="form-control" id="userName">
+      </div>
+    
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input [(ngModel)]="this.user.pwd" placeholder="Password" name="pwd" class="form-control" id="pwd">
+      </div>
+        
+      <button class="btn btn-success" (click)="Add()">Add</button>
+    </form>
+    </div>
