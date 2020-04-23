@@ -12,6 +12,6 @@ export class HttpClientService {
    }
 
    public addUser(user) {
-     return this.http.post<User>("http://localhost:8765/user", user);
+     return this.http.post<User>("http://localhost:8080/user", user);
    }
 }

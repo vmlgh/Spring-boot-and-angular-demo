@@ -1,14 +1,10 @@
-package com.example.demo.model;
+package com.example.demo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
-import javax.persistence.PrePersist;
 import javax.persistence.Table;
-
-import org.springframework.validation.annotation.Validated;
 
 @Entity
 @Table(name="data")
@@ -43,5 +39,5 @@ public class User {
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
-	
 }
+	
